@@ -9,6 +9,7 @@ var hotWater = {
   duration: 120,
 }
 
+console.log(hotWater.title);
 console.log(hotWater.director, hotWater.releaseYear);
 
 var directorsCut = (hotWater.duration + 25);
@@ -27,11 +28,11 @@ var snakewaterMontana = {
 // Do the tasks down here!
 
 
-var guestOfHonor = null;
-snakewaterMontana.paleontologist = guestOfHonor;
+var guestOfHonor = snakewaterMontana.paleontologist;
 var cleverGirl = snakewaterMontana.specimen;
 
-console.log(snakewaterMontana.paleontologist);
+
+console.log(guestOfHonor);
 console.log(cleverGirl);
 
 
@@ -50,6 +51,22 @@ var nicaragua = {
 };
 
 // Do the tasks down here!
+
+
+nicaraguanSpecimens = nicaragua.specimens;
+
+// on a good day //
+favoriteSpecimen = nicaraguanSpecimens[1];
+
+// on a bad day, overwrite previous favorite with T-rex //
+favoriteSpecimen = nicaragua.specimens[0];
+
+nicaragua.annual_budget = (nicaragua.annual_budget + 250000);
+
+
+console.log(nicaraguanSpecimens);
+console.log(favoriteSpecimen);
+console.log(nicaragua.annual_budget);
 
 
 
@@ -75,4 +92,13 @@ var hammondsMines = {
 };
 
 // Do the tasks down here!
+
+mexicoDepth = hammondsMines.mexico.depth;
+
+console.log(mexicoDepth);
+
+
+
+
+
 
