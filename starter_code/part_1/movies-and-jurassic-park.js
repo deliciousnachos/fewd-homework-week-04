@@ -28,15 +28,31 @@ var snakewaterMontana = {
 // Do the tasks down here!
 
 
+// There are many ways to interpret the 1st step. Here's one:
+
 var guestOfHonor = {
   name: snakewaterMontana.paleontologist,
 };
+console.log(guestOfHonor.name);
+
+// Here's a second interpretation 
+// I think this is what you were looking for?
+
+var guestOfHonor = snakewaterMontana.paleontologist;
+console.log(guestOfHonor);
+
+// Here's a third, though I think it's not what you're looking for,
+// it answers the instructions most literally.
+// I set the value of guestOfHonor to null to illustrate the instruction better.
+
+var guestOfHonor = null;
+snakewaterMontana.paleontologist = guestOfHonor;
+console.log(snakewaterMontana.paleontologist);
+
+
+// Here is my answer to the utterly uncontroversial step 2 of part 1:
 
 var cleverGirl = snakewaterMontana.specimen;
-
-
-
-console.log(guestOfHonor.name);
 console.log(cleverGirl);
 
 
