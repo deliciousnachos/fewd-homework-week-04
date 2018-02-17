@@ -28,11 +28,15 @@ var snakewaterMontana = {
 // Do the tasks down here!
 
 
-var guestOfHonor = snakewaterMontana.paleontologist;
+var guestOfHonor = {
+  name: snakewaterMontana.paleontologist,
+};
+
 var cleverGirl = snakewaterMontana.specimen;
 
 
-console.log(guestOfHonor);
+
+console.log(guestOfHonor.name);
 console.log(cleverGirl);
 
 
