@@ -1,4 +1,6 @@
-console.log('movies-and-jurassic-park.js is connected! woohoo!');
+console.log('movies-and-jurassic-park.js is connected!');
+
+// Test this out step 0 
 
 var hotWater = {
   title: 'Hot Water',
@@ -10,7 +12,6 @@ var hotWater = {
 console.log(hotWater.director, hotWater.releaseYear);
 
 var directorsCut = (hotWater.duration + 25);
-
 console.log(directorsCut);
 
 
@@ -20,15 +21,18 @@ console.log(directorsCut);
 var snakewaterMontana = {
   paleontologist: "Dr. Alan Grant",
   depth: "10 meters",
-  specimen: "Velociraptor"
+  specimen: "Velociraptor",
 };
 
 // Do the tasks down here!
 
-var guestOfHonor = {
-  name: snakewaterMontana.paleontologist,
-}
 
+var guestOfHonor = null;
+snakewaterMontana.paleontologist = guestOfHonor;
+var cleverGirl = snakewaterMontana.specimen;
+
+console.log(snakewaterMontana.paleontologist);
+console.log(cleverGirl);
 
 
 
