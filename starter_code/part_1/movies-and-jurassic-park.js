@@ -1,5 +1,20 @@
 console.log('movies-and-jurassic-park.js is connected! woohoo!');
 
+var hotWater = {
+  title: 'Hot Water',
+  director: 'Graham Mason',
+  releaseYear: 2020,
+  duration: 120,
+}
+
+console.log(hotWater.director, hotWater.releaseYear);
+
+var directorsCut = (hotWater.duration + 25);
+
+console.log(directorsCut);
+
+
+
 // Part 1
 
 var snakewaterMontana = {
@@ -8,8 +23,11 @@ var snakewaterMontana = {
   specimen: "Velociraptor"
 };
 
-
 // Do the tasks down here!
+
+var guestOfHonor = {
+  name: snakewaterMontana.paleontologist,
+}
 
 
 
