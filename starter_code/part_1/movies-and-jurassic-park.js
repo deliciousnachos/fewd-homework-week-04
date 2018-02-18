@@ -17,12 +17,14 @@ console.log(hotWater.director, hotWater.releaseYear);
 
 //// 0.4
 var directorsCut = (hotWater.duration + 25);
+////// test my work
 console.log(directorsCut);
 
 //// another way to do 0.4
 var directorsCut = {
   duration: (hotWater.duration + 25),
 };
+////// test my work
 console.log(directorsCut.duration);
 
 
@@ -40,19 +42,23 @@ var snakewaterMontana = {
 var guestOfHonor = {
   name: snakewaterMontana.paleontologist,
 };
+////// test my work
 console.log(guestOfHonor.name);
 
 //// 1.1 - I think this is what you were looking for?
 var guestOfHonor = snakewaterMontana.paleontologist;
+////// test my work
 console.log(guestOfHonor);
 
-//// 1.1 - Here's a third, though I think it's not what you're looking for, it answers the instructions most literally. It's worded like you want me to overwrite the name of the palentologist with an unspecified new name, rather than just reference it. I set the value of guestOfHonor to null to illustrate the instruction better.
+//// 1.1 - Here's a third, though I think it's not what you're looking for, it answers the instructions most literally. (It's worded like you want me to overwrite the name of the palentologist with an unspecified new name, rather than just reference it. I set the value of guestOfHonor to null to illustrate the instruction better.)
 var guestOfHonor = null;
 snakewaterMontana.paleontologist = guestOfHonor;
+////// test my work
 console.log(snakewaterMontana.paleontologist);
 
 //// 1.2
 var cleverGirl = snakewaterMontana.specimen;
+////// test my work
 console.log(cleverGirl);
 
 
@@ -73,18 +79,22 @@ var nicaragua = {
 
 //// 2.1
 nicaraguanSpecimens = nicaragua.specimens;
+////// test my work
 console.log(nicaraguanSpecimens);
 
 //// 2.2 - On a good day, using reference method A
 favoriteSpecimen = nicaraguanSpecimens[1];
+////// test my work
 console.log(favoriteSpecimen);
 
 //// 2.2 - on a bad day, using reference method B
 favoriteSpecimen = nicaragua.specimens[0];
+////// test my work
 console.log(favoriteSpecimen);
 
 //// 2.3
 nicaragua.annual_budget = (nicaragua.annual_budget + 250000);
+////// test my work
 console.log(nicaragua.annual_budget);
 
 
@@ -113,9 +123,41 @@ var hammondsMines = {
 
 //// 3.1
 mexicoDepth = hammondsMines.mexico.depth;
+////// test my work
 console.log(mexicoDepth);
 
 //// 3.2
+console.log(hammondsMines.buenos_aires.annual_budget);
+var buenosAiresBudget = hammondsMines.buenos_aires.annual_budget;
+////// test my work
+console.log(buenosAiresBudget);
+
+//// 3.3
+console.log(hammondsMines.buenos_aires.specimens);
+
+//// 3.4
+hammondsMines.nicaragua = nicaragua;
+////// test my work
+console.log(hammondsMines.nicaragua.depth);
+
+//// 3.5
+nicaraguaBudget = hammondsMines.nicaragua.annual_budget;
+mexicoBudget = hammondsMines.mexico.annual_budget;
+// var buenosAiresBudget already exists from step 3.2
+////// test my work
+console.log('nic: ' + nicaraguaBudget + ', mex: ' + mexicoBudget + ', buenos: ' + buenosAiresBudget);
+
+//// 3.6
+var hammondsTotalBudget = (nicaraguaBudget+mexicoBudget+buenosAiresBudget);
+////// test my work
+console.log(hammondsTotalBudget);
+
+//// 3.7
+console.log(hammondsMines.mexico.specimens[1]);
+
+
+
+
 
 
 
