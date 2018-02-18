@@ -50,7 +50,7 @@ var guestOfHonor = snakewaterMontana.paleontologist;
 ////// test my work
 console.log(guestOfHonor);
 
-//// 1.1 - Here's a third, though I think it's not what you're looking for, it answers the instructions most literally. (It's worded like you want me to overwrite the name of the palentologist with an unspecified new name, rather than just reference it. I set the value of guestOfHonor to null to illustrate the instruction better.)
+//// 1.1 - Here's a third, though I think it's not what you're looking for, it answers the instructions most literally. (It's worded like you want me to overwrite the name of the paleontologist with an unspecified new name, rather than just reference it. I set the value of guestOfHonor to null to illustrate the instruction better.)
 var guestOfHonor = null;
 snakewaterMontana.paleontologist = guestOfHonor;
 ////// test my work
