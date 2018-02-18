@@ -154,21 +154,3 @@ console.log(hammondsTotalBudget);
 
 //// 3.7
 console.log(hammondsMines.mexico.specimens[1]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
