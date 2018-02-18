@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Weather App</title>
+    <title>Temperature Calculator</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
   <body>
 
+    <header>
+      <h1>Convert Celsius to Fahrenheit</h1>
+      <p>Enter a temperature in celsius and convert it to fahrenheit</p>
+    </header>
 
-    <h1>Testing</h1>
+    <section class="main">
+
+      <div class="calculator">
+        <h2>Enter your temperature in celsius</h2>
+        <input type="text" id="celsius-input" placeholder="Enter ºC">
+        <button>Convert</button>
+
+        <div id="fahrenheit-display">
+          <h2>Your temperature in fahrenheit is</h2>
+          <h3>ºF</h3>
+        </div>
+
+      </div>
+
+    </section>
+
 
     <script src="./js/main.js"></script>
   </body>

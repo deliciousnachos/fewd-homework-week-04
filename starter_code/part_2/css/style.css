@@ -1,3 +1,57 @@
 body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
   font-family: Helvetica, sans-serif;
+}
+header {
+  padding: 30px 0;
+  background: #fff;
+  border-bottom: 1px solid #E3F2FD;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #1976D2;
+}
+h2 {
+  font-weight: 400;
+}
+header p {
+  color: gray;
+}
+.main {
+  background-color: rgba(227,242,253 ,.1);
+  padding-top: 40px;
+  height: 100%;
+}
+
+input {
+  box-sizing: border-box;
+  height: 38px;
+  width: 150px;
+  font-size: 18px;
+  border: 1px solid #E3F2FD;
+  padding-left: 10px;
+}
+button {
+  margin-left: 10px;
+  box-sizing: border-box;
+  background-color: #42A5F5;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#fahrenheit-display {
+  background-color: rgba(33,150,243 ,.05);
+  width: 40%;
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 5px;
+  color: rgba(33,150,243 ,.2);
 }
